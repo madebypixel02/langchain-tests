@@ -1,0 +1,44 @@
+---
+title: "Langchain Tests"
+subtitle: "GenAI Tests"
+author: Alejandro Pérez Bueno
+date: today
+date-format: "MMM DD, YYYY"
+toc: true
+toc-title: "Table of Contents"
+linkcolor: blue
+documentclass: report
+link-citations: true
+link-bibliography: true
+format:
+  gfm:
+    code-fold: show
+    code-overflow: wrap
+    execute:
+      echo: true
+  pdf:
+    linestretch: 1.25
+    code-overflow: wrap
+    keep-tex: true
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+          \pagestyle{fancy}
+          \fancyhead[C]{UOC}
+          \fancyhead[R]{aperez-b@uoc.edu}
+          \fancyfoot{}
+          \fancyfoot[C]{\thepage}
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+        \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
+---
+
+## Install dependencies
+
+```python
+!pip install langchain
+```
