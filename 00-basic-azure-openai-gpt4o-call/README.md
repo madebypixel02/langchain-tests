@@ -7,5 +7,5 @@ Oct 25, 2024
 ## Install dependencies
 
 ``` python
-!pip install langchain
+pip install langchain
 ```

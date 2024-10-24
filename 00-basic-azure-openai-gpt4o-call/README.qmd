@@ -40,5 +40,5 @@ format:
 ## Install dependencies
 
 ```python
-!pip install langchain
+pip install langchain
 ```
